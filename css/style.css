@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace
+}
+
+body {
+    height: 100vh;
+    background: url(/img/textura-de-sobreposicao-desgastada-de-metal-enferrujado-descascado-textura-urbana-preto-e-branco-grunge_196290-10624.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 2rem;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.nav_links a:hover {
+   color: rgba(5, 116, 64, 0.788);
+}
+
+/* HEADER */ 
+header {
+    position: relative;
+    padding: 0 2rem;
+    padding-top: 20px;
+   
+}
+
+nav {
+   width: 100%;
+   height: 60px;
+   max-width: 2000px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo img{
+    height: 5rem;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btn a{
+    background-color: rgba(5, 116, 64, 0.788);
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    transition: .2s;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.btn:hover {
+   scale: 1.05;
+   transition: .2s;
+}
+
+/* ABOUT */
+
+main {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+section#about {
+    display: flex;
+    align-items: center;
+    padding: 100px 0px 400px 0px;
+}
+
+section#about h1 {
+    font-size: 3rem;
+    position: relative;
+    bottom: 40px;
+    left: 140px;
+    
+}
+
+section#about p {
+    position: relative;
+    top: 200px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgba(42, 139, 63, 0.849);
+}
+
+aside {
+    position: relative;
+    right: 20px;
+    height: 10rem;
+}
+
+/* MY SKILLS */
+
+section #skills {
+    padding: 40px 4%;
+}
+
+.interface h2 {
+    font-size: 4rem;
+    padding: 0px 100px 150px 100px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+#skills .skills-box1 {
+    color: rgb(31, 31, 31);
+    background-color: rgb(42, 139, 63);
+    padding: 40px;
+}
+
+
+#skills .skills-box1 h1 {
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+#skills .skills-box2 {
+    color: rgb(31, 31, 31);
+    background-color: rgb(39, 104, 53);
+    padding: 40px;
+}
+
+
+
+#skills .skills-box2 h1 {
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+#skills .idiomas-box {
+     color: rgb(31, 31, 31);
+    background-color: rgb(42, 139, 63);
+    padding: 40px;
+}
+
+
+
+#skills .idiomas-box h1 {
+     font-size: 36px;
+    margin: 15px 0;
+}
+
+#skills .formacao-box {
+     color: rgb(31, 31, 31);
+    background-color: rgb(39, 104, 53);
+    padding: 40px;
+}
+
+
+
+#skills .formacao-box h1 {
+     font-size: 36px;
+    margin: 15px 0;
+}
+
+/* Work */
+
+
+#work h2{
+    font-size: 4rem;
+    padding: 120px 100px 0px 100px;
+    text-align: center;
+}
+
+#work .work-box {
+     color: rgb(31, 31, 31);
+    background-color: rgb(42, 139, 63);
+    padding: 40px;
+}
+
+
+
+#work .work-box h1 {
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+#work .work-box img {
+    height: 25rem;
+    margin-top: 30px;
+}
+
+#work .work-box1 {
+     color: rgb(31, 31, 31);
+    background-color: rgb(39, 104, 53);
+    padding: 40px;
+}
+
+
+
+#work .work-box1 h1 {
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+#work .work-box1 img {
+    height: 25rem;
+    margin-top: 30px;
+}
+
+/* Contato */
+
+#contato .geral {
+    
+   
+    align-items: center;
+    justify-content: center;
+}
+
+#contato h2 {
+     font-size: 4rem;
+    padding: 120px 100px 0px 100px;
+    text-align: center;
+}
+
+#contato .login {
+    background-color: rgb(39, 104, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border: 0;
+    gap: 10px;
+}
+
+.botao {
+    
+    background-color: rgb(42, 139, 63);
+    border: 0;
+    border-radius: 25px;
+    padding: 20px 70px;   
+}
+
+.botao:hover {
+    background-color: rgba(0, 110, 255, 0.822);
+}
+
+form input {
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    outline: 0;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+
+@media(max-width:1470px) {
+    section.about h1 {
+        display: none;
+    }
+}
