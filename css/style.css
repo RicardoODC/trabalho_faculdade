@@ -12,7 +12,7 @@ body {
     background: url(/img/textura-de-sobreposicao-desgastada-de-metal-enferrujado-descascado-textura-urbana-preto-e-branco-grunge_196290-10624.jpg);
     background-size: cover;
     background-position: center;
-    background-color: black;
+    
 }
 
 li {
@@ -146,7 +146,6 @@ section #skills {
 }
 
 
-
 #skills .skills-box2 h1 {
     font-size: 36px;
     margin: 15px 0;
@@ -157,7 +156,6 @@ section #skills {
     background-color: rgb(42, 139, 63);
     padding: 40px;
 }
-
 
 
 #skills .idiomas-box h1 {
